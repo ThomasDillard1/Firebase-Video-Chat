@@ -1,0 +1,44 @@
+body {
+  background-color: #845695;
+  font-family: Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: black;
+  margin: 80px 10px;
+}
+
+video {
+  border-radius: 15px;
+  border: solid;
+  width: 40vw;
+  height: 30vw;
+  margin: 2rem;
+  background: #2c3e50;
+}
+
+button {
+  border-radius: 6px;
+  border: None;
+  font-size: 20px;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  box-sizing: border-box;
+  width: 50%;
+  border: black;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+}
